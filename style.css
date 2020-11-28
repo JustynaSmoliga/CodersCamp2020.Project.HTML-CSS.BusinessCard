@@ -1,3 +1,15 @@
+/*-------------BASIC SETUP---------------*/
+
+
+/*--MAIN COLOR--*/
+
+:root {
+    --main-color-orange: #e78200;
+}
+
+
+/*--------------*/
+
 * {
     margin: 0;
     padding: 0;
@@ -15,22 +27,52 @@ html {
     font-weight: 300;
 }
 
-.main-nav {
+
+/*-------------------------MAIN-NAV*--------------------------*/
+
+.main-nav.container {
     height: 10vh;
-}
-
-
-/* .main-nav li {
-    display: inline-block;
-    text-transform: uppercase;
-} */
-
-.nav.container {
+    position: relative;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    align-items: center;
     text-transform: uppercase;
 }
+
+.main-nav a:link,
+.main-nav a:visited {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-weight: 400;
+    color: #555;
+    text-decoration: none;
+}
+
+.main-nav a:hover,
+.main-nav a:active {
+    padding-top: 0.1em;
+    border-bottom: 2px solid var(--main-color-orange);
+    transition: border 70ms ease-out, padding 70ms ease-out;
+}
+
+.main-nav div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    margin-left: 1%;
+    width: 5.5rem;
+}
+
+.main-nav img {
+    width: 100%;
+    height: auto;
+    padding-top: 6%;
+}
+
+
+/*-----------------------------HEADER-------------------------------*/
 
 header {
     overflow: hidden;
