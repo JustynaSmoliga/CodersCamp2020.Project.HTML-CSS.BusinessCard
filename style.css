@@ -1,7 +1,7 @@
 /*-------------BASIC SETUP---------------*/
 
 
-/*--MAIN COLOR--*/
+/*--main color--*/
 
 :root {
     --main-color-orange: #e78200;
@@ -28,7 +28,30 @@ html {
 }
 
 
-/*-------------------------MAIN-NAV*--------------------------*/
+/*-----------headings--------------*/
+
+h1 {
+    flex-basis: 100%;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    padding-top: 2%;
+    letter-spacing: 2px;
+}
+
+h1::after {
+    display: block;
+    height: 2px;
+    background-color: var(--main-color-orange);
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/*-------------------------MAIN-NAV--------------------------*/
 
 .main-nav.container {
     height: 10vh;
@@ -98,4 +121,52 @@ header div {
     font-weight: 300;
     font-size: 200%;
     letter-spacing: 4px;
+}
+
+
+/*-------------------------ABOUT US------------------------*/
+
+.about-us.container {
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+    padding-bottom: 2%;
+}
+
+.about-us .photo {
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.about-us img {
+    width: 100%;
+}
+
+.about-us .paragraph {
+    text-align: justify;
+    font-size: 0.9rem;
+    width: 70%;
+    padding-left: 3rem;
+}
+
+
+/*----------------OFFER-------------------*/
+
+.offer.container {
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-left: 12%;
+    padding-right: 12%;
+    background-color: rgb(240, 240, 240);
 }
