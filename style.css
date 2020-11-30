@@ -53,7 +53,7 @@ h1::after {
 
 /*-------------------------MAIN-NAV--------------------------*/
 
-.main-nav.container {
+.main-nav {
     height: 10vh;
     position: relative;
     display: flex;
@@ -126,7 +126,7 @@ header div {
 
 /*-------------------------ABOUT US------------------------*/
 
-.about-us.container {
+.about-us {
     height: 70vh;
     display: flex;
     flex-direction: row;
@@ -159,8 +159,8 @@ header div {
 
 /*----------------OFFER-------------------*/
 
-.offer.container {
-    height: 50vh;
+.offer {
+    height: 60vh;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -169,6 +169,7 @@ header div {
     padding-left: 12%;
     padding-right: 12%;
     background-color: rgb(240, 240, 240);
+    padding-bottom: 3%;
 }
 
 .offer div {
@@ -177,10 +178,13 @@ header div {
     background-color: #fff;
     margin: 0 2.5%;
     text-align: center;
+    border: rgb(221, 220, 220) solid 1px;
+    border-radius: 2.5%;
+    box-shadow: 5px 5px 20px rgb(194, 194, 194);
 }
 
 .offer i {
-    font-size: 2.7em;
+    font-size: 2.3em;
     padding-bottom: 10px;
 }
 
@@ -189,16 +193,41 @@ header div {
     font-weight: 400;
 }
 
-.offer a {
+.offer a:link,
+.offer a:visited {
     display: block;
     color: #555;
     text-decoration: none;
     text-transform: uppercase;
     padding-top: 25%;
-    /* box-shadow: 10px 10px 10px #555; */
 }
 
 .offer a:hover,
 .offer a:active {
     color: var(--main-color-orange);
+    transition: color 70ms ease-out;
+}
+
+
+/*-----------------PORTFOLIO-----------------*/
+
+.portfolio ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+img {
+    max-height: 100%;
+    min-width: 100%;
+    object-fit: cover;
+    vertical-align: bottom;
+}
+
+li:last-child {
+    flex-grow: 8;
 }
