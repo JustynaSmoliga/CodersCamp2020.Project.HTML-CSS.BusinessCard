@@ -223,6 +223,7 @@
         height: 3px;
         background: linear-gradient(to right, transparent, var(--main-color-dark-orange));
         animation: animate1 2s linear infinite;
+        animation-delay: 1s;
     }
     
     .offer .card span:nth-child(2) {
@@ -232,8 +233,7 @@
         width: 3px;
         height: 100%;
         background: linear-gradient(to bottom, transparent, var(--main-color-dark-orange));
-        animation: animate2 2s linear infinite;
-        animation-delay: 1s;
+        animation: animate2 1s linear infinite;
     }
     
     .offer .card span:nth-child(3) {
@@ -243,7 +243,8 @@
         width: 100%;
         height: 3px;
         background: linear-gradient(to top, transparent, var(--main-color-dark-orange));
-        animation: animate3 2s linear infinite;
+        animation: animate3 1s linear infinite;
+        animation-delay: 1s;
     }
     
     .offer .card span:nth-child(4) {
@@ -253,8 +254,7 @@
         width: 3px;
         height: 100%;
         background: linear-gradient(to top, transparent, var(--main-color-dark-orange));
-        animation: animate4 2s linear infinite;
-        animation-delay: 1s;
+        animation: animate4 1s linear infinite;
     }
     
     @keyframes animate1 {
@@ -348,14 +348,16 @@
     
     .grid {
         display: grid;
-        grid-template-columns: 200px 1fr;
-        margin: auto;
+        grid-template-columns: 60px auto;
+        margin-left: 25%;
+        /* margin-left: 25%; */
+        /* margin-right: auto; */
         width: 60%;
     }
     
     form {
         display: grid;
-        grid-template-columns: 200px 1fr;
+        grid-template-columns: 25% 75%;
         grid-column: 2/3;
         grid-gap: 16px;
         /* grid-auto-rows: minmax(100px, auto); */
@@ -363,6 +365,44 @@
         height: 100%;
         /* margin: auto; */
         background-color: var(--main-color-gray);
+        padding: 3% 5% 3% 2%;
+        box-shadow: 5px 5px 20px rgb(194, 194, 194);
+        border-radius: 10px;
+    }
+    
+    label {
+        grid-column: 1/2;
+        text-align: right;
+        font-size: 0.8rem;
+        letter-spacing: 0;
+    }
+    
+    input,
+    textarea {
+        grid-column: 2/3;
+        resize: none;
+    }
+    
+    #question {
+        align-self: flex-end;
+    }
+    
+    input[type=submit] {
+        background-color: var(--main-color-dark-orange);
+        width: 30%;
+        height: 3em;
+        margin: auto;
+        border: 0;
+        border-radius: 20px;
+        color: #fff;
+        padding: 0;
+        /* font-size: 0.6em; */
+        letter-spacing: 1px;
+        text-transform: uppercase;
+    }
+    
+    input[type=submit]:hover {
+        background-color: #ca6009
     }
     
     .social-links {
@@ -370,39 +410,60 @@
         text-align: right;
         align-self: center;
         grid-row: 1;
-    }
-    /* .social-links {
-        grid-column: 1/2;
-        /* grid-row: 1; 
-        background-color: orchid;}
-         */
-    
-    label {
-        grid-column: 1/2;
-        text-align: right;
+        height: 100%;
     }
     
-    input {
-        grid-column: 2/3;
+    .social-links div:nth-child(2),
+    .social-links div:nth-child(4),
+    .social-links div:nth-child(6),
+    .social-links div:nth-child(8) {
+        padding-bottom: 0.5em;
+        padding-top: 0.5em;
+        background-image: radial-gradient( var(--main-color-dark-orange) 40%, rgb(161, 41, 4));
+        height: 15%;
+        border-bottom-left-radius: 7px;
+        border-top-left-radius: 7px;
+        font-size: 1.2em;
+        padding: 10% 5%;
+        text-align: center;
+        box-shadow: 5px 5px 20px rgb(194, 194, 194);
+        /* width: 100%;
+        /* width: 0;
+        height: 18%;
+        border-top: 75px solid transparent;
+        border-bottom: 75px solid transparent;
+        border-right: 130px solid #F34A53; */
+        /* margin: 40px auto 0; */
     }
     
-    #question {
-        align-self: center;
-        margin-left: 10%;
+    .social-links div:nth-child(1),
+    .social-links div:nth-child(3),
+    .social-links div:nth-child(5),
+    .social-links div:nth-child(7) {
+        background-color: #fff;
+        height: 5%;
     }
-    /* .form-labels label {
-        display: block;
-        grid-column: 2;
-        grid-row: 1;
-        background-color: palegreen;
-    } */
-    /* .contact-form {
-        grid-column: 3;
-        grid-row: 1;
-        background-color: pink;
-    } */
-    /* .contact-form input,
-    .contact-form textarea {
-        display: block;
-        margin: 2em 0;
-    } */
+    
+    .social-links a {
+        color: rgb(240, 240, 240)
+    }
+    
+    .social-links a:hover {
+        /* color: rgb(23, 75, 54) */
+        color: rgb(43, 6, 6);
+        transition: color 150ms ease-out, padding 70ms ease-out;
+    }
+    /*---------------------FOOTER---------------------------*/
+    
+    footer div {
+        width: 100%;
+        height: 15vh;
+        background-color: rgb(36, 36, 36);
+        color: rgb(202, 202, 202);
+        font-size: 0.8rem;
+        /* text-align: center; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
