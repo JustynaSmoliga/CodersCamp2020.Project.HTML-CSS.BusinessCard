@@ -2,139 +2,142 @@
 <html lang="en">
 
 <head>
-    <title>Construction company</title>
+    <meta neme='viewport' content='width=device-width, initial-scale=1.0'>
+
     <meta name='description' content="Firma budowlana" />
 
     <meta name=”keywords” content="firma, budowlana, kalisz, remonty" />
     <meta http-equiv="X-UA-Compatible" content="”IE=edge, chrome=1" />
     <link rel="stylesheet" type="text/css" href=style.css>
+    <link rel="stylesheet" type="text/css" href=queries.css>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,100&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/99993dbfe3.js" crossorigin="anonymous"></script>
+    <title>Construction company</title>
 
 </head>
 
 <body>
+    <div class='container'>
+        <nav class='main-nav'>
+            <div><img src="img/logo2.png"></div>
+            <a href='#'>About us</a>
+            <a href='#'>Offer</a>
+            <a href='#'>Portfolio</a>
+            <a href='#'>Contact</a>
+        </nav>
 
-    <nav class='main-nav'>
-        <div><img src="img/logo2.png"></div>
-        <a href='#'>About us</a>
-        <a href='#'>Offer</a>
-        <a href='#'>Portfolio</a>
-        <a href='#'>Contact</a>
-
-
-    </nav>
-
-    <header>
-        <div>
-            <p class="main-text">Build your home with us!</p>
-        </div>
-    </header>
-    <section class="about-us">
-        <h1>Get to know us</h1>
-
-        <div class="photo "><img src="img/boss.jpg "></div>
-        <div class="paragraph ">
-            <p>In sagittis dignissim velit vitae vulputate. Morbi malesuada fringilla tortor, vitae iaculis sem maximus nec. Sed interdum dolor at nisi facilisis, vel faucibus ante pellentesque. Donec vitae ante non est dignissim lacinia sit amet nec augue.
-                Morbi ultricies tellus velit, ac laoreet est semper nec. Vivamus facilisis sem vehicula lacus molestie fringilla. Fusce placerat tempus accumsan. Nullam dolor velit, auctor a auctor ut, placerat a augue. Suspendisse sed lectus quis nulla
-                gravida suscipit. Nullam elementum tellus nunc, quis facilisis mauris congue nec. </p><br>
-            <p> Vestibulum aliquet orci eu odio ornare, id fermentum nibh dignissim. Duis ornare egestas vehicula. Integer vitae sapien id lacus porta accumsan.Vivamus hendrerit, diam ac facilisis tempor, ex ipsum porta leo, in imperdiet ligula ipsum sed
-                risus. Mauris ultrices condimentum turpis, in vestibulum quam molestie id. Donec eget elementum diam. </p>
-        </div>
-
-
-    </section>
-    <section class="offer">
-        <h1>Offer</h1>
-        <div class='card'>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <a href=#><i class="fas fa-home"></i><p>residential<br>buildings</p></a>
-        </div>
-
-        <div class='card'>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <a href=#><i class="fas fa-chess-board"></i><p>interior<br>finishing</p></a></div>
-
-        <div class='card'>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <a href=#><i class="fas fa-building"></i><p>utility<br>buildings</p></a></div>
-        <div class='card'>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <a href=#><i class="fas fa-briefcase"></i><p>construction<br>management</p></a></div>
-    </section>
-    <section class="portfolio">
-        <h1>Portfolio</h1>
-        <ul>
-            <li><img src="img/portfolio1.jpg"></li>
-            <li><img src="img/portfolio2.jpg"></li>
-            <li><img src="img/portfolio4.jpg">
-                <a href=# class='see-more-btn'>See more</a>
-            </li>
-            <li><img src="img/portfolio3.jpg"></li>
-            <li><img src="img/portfolio8.jpg"></li>
-            <li><img src="img/portfolio6.jpg"></li>
-            <li><img src="img/portfolio7.jpg"></li>
-            <li><img src="img/portfolio5.jpg"></li>
-            <!-- <li></li> -->
-        </ul>
-
-    </section>
-    <section class='contact'>
-
-        <h1>Contact with us</h1>
-        <div class='grid'>
-            <form action=''>
-                <label for='name'>Your name:</label>
-                <input type='text' id='name'>
-                <label for='email'>Your email:</label>
-                <input type='email' id='email'>
-                <label for='phone-number'>Phone number:</label>
-                <input type='text' id='phone-number'>
-                <label for='message'>Message:</label>
-                <textarea id='message' rows="7" cols="40"></textarea>
-                <label for='qestion'>I agree to send offers</label>
-                <input type='checkbox' id='question'>
-                <input type='submit' value='Send'>
-            </form>
-            <div class="social-links">
-                <div></div>
-                <div>
-                    <a href=#><i class="fab fa-twitter"></i></a>
+        <header>
+            <div>
+                <p class="main-text">Build your home with us!</p>
+            </div>
+        </header>
+        <section class="about-us">
+            <h1>Get to know us</h1>
+            <div class='about-us-card'>
+                <div class="photo "><img src="img/architect.jpg "></div>
+                <div class="paragraph ">
+                    <p>In sagittis dignissim velit vitae vulputate. Morbi malesuada fringilla tortor, vitae iaculis sem maximus nec. Sed interdum dolor at nisi facilisis, vel faucibus ante pellentesque. Donec vitae ante non est dignissim lacinia sit amet
+                        nec augue. Morbi ultricies tellus velit, ac laoreet est semper nec. Vivamus facilisis sem vehicula lacus molestie fringilla. Fusce placerat tempus accumsan. Nullam dolor velit, auctor a auctor ut, placerat a augue. Suspendisse
+                        sed lectus quis nulla gravida suscipit. Nullam elementum tellus nunc, quis facilisis mauris congue nec. </p><br>
+                    <p> Vestibulum aliquet orci eu odio ornare, id fermentum nibh dignissim. Duis ornare egestas vehicula. Integer vitae sapien id lacus porta accumsan.Vivamus hendrerit, diam ac facilisis tempor, ex ipsum porta leo, in imperdiet ligula ipsum
+                        sed risus. Mauris ultrices condimentum turpis, in vestibulum quam molestie id. Donec eget elementum diam. </p>
                 </div>
-                <div></div>
-                <div>
-                    <a href=#><i class="fab fa-facebook-f"></i></a>
-                </div>
-                <div></div>
-                <div>
-                    <a href=#><i class="fab fa-google-plus-g"></i></a>
-                </div>
-                <div></div>
-                <div><a href=#><i class="fab fa-instagram"></i></a></div>
-
             </div>
 
-    </section>
-    <footer>
-        <div>
-            <p>Construction company</p>
-            <p>Contrary to popular belief &copy; 2020</p>
-        </div>
 
-    </footer>
+        </section>
+        <section class="offer">
+            <h1>Offer</h1>
+            <div class='card'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href=#><i class="fas fa-home"></i><p>residential<br>buildings</p></a>
+            </div>
+
+            <div class='card'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href=#><i class="fas fa-chess-board"></i><p>interior<br>finishing</p></a></div>
+
+            <div class='card'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href=#><i class="fas fa-building"></i><p>utility<br>buildings</p></a></div>
+            <div class='card'>
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <a href=#><i class="fas fa-briefcase"></i><p>construction<br>management</p></a></div>
+        </section>
+        <section class="portfolio">
+            <h1>Portfolio</h1>
+            <ul>
+                <li><img src="img/portfolio1.jpg"></li>
+                <li><img src="img/portfolio2.jpg"></li>
+                <li><img src="img/portfolio4.jpg">
+                    <a href=# class='see-more-btn'>See more</a>
+                </li>
+                <li><img src="img/portfolio3.jpg"></li>
+                <li><img src="img/portfolio8.jpg"></li>
+                <li><img src="img/portfolio6.jpg"></li>
+                <li><img src="img/portfolio7.jpg"></li>
+                <li><img src="img/portfolio5.jpg"></li>
+                <!-- <li></li> -->
+            </ul>
+
+        </section>
+        <section class='contact'>
+
+            <h1>Contact with us</h1>
+            <div class='grid'>
+                <form action=''>
+                    <label for='name'>Your name:</label>
+                    <input type='text' id='name'>
+                    <label for='email'>Your email:</label>
+                    <input type='email' id='email'>
+                    <label for='phone-number'>Phone number:</label>
+                    <input type='text' id='phone-number'>
+                    <label for='message'>Message:</label>
+                    <textarea id='message' rows="7" cols="40"></textarea>
+                    <label for='qestion'>I agree to send offers</label>
+                    <input type='checkbox' id='question'>
+                    <input type='submit' value='Send'>
+                </form>
+                <div class="social-links">
+                    <div></div>
+                    <div>
+                        <a href=#><i class="fab fa-twitter"></i></a>
+                    </div>
+                    <div></div>
+                    <div>
+                        <a href=#><i class="fab fa-facebook-f"></i></a>
+                    </div>
+                    <div></div>
+                    <div>
+                        <a href=#><i class="fab fa-google-plus-g"></i></a>
+                    </div>
+                    <div></div>
+                    <div><a href=#><i class="fab fa-instagram"></i></a></div>
+
+                </div>
+
+        </section>
+        <footer>
+            <div>
+                <p>Construction company</p>
+                <p>Contrary to popular belief &copy; 2020</p>
+            </div>
+
+        </footer>
+        </div>
 </body>
 
 </html>

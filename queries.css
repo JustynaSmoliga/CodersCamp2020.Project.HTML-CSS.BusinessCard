@@ -1,0 +1,76 @@
+ @media only screen and (max-width:1023px) {
+     .about-us .paragraph {
+         font-size: 0.7rem;
+     }
+     .offer .card {
+         margin: 2.5% 2.5%;
+     }
+     .grid {
+         width: 80%;
+     }
+ }
+ 
+ @media only screen and (max-width: 767px) {
+     html {
+         font-size: 24px;
+     }
+     .about-us .photo {
+         width: 220px;
+         height: 220px;
+     }
+ }
+ 
+ @media only screen and (max-width: 500px) {
+     h1 {
+         font-size: 30px;
+     }
+     h1::after {
+         margin-bottom: 40px;
+     }
+     .main-nav {
+         justify-content: space-evenly;
+     }
+     .main-nav div {
+         display: none;
+     }
+     .main-nav a {
+         font-size: 22px;
+     }
+     .about-us-card {
+         flex-direction: column;
+     }
+     .about-us .paragraph {
+         width: 90%;
+         padding-left: 0;
+         padding-top: 5%;
+         margin: auto;
+     }
+     .contact {
+         padding-bottom: 10%;
+     }
+     .grid {
+         width: 94%;
+     }
+     form {
+         grid-template-columns: 1fr;
+         grid-gap: 16px;
+         padding: 3% 5% 3% 2%;
+     }
+     label {
+         grid-column: 1/2;
+         text-align: left;
+     }
+     input,
+     textarea {
+         grid-column: 1/2;
+     }
+     .social-links div:nth-child(2),
+     .social-links div:nth-child(4),
+     .social-links div:nth-child(6),
+     .social-links div:nth-child(8) {
+         height: 10%;
+     }
+     footer div {
+         font-size: 0.7rem;
+     }
+ }
