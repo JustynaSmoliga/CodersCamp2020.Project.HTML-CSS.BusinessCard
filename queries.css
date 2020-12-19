@@ -34,7 +34,10 @@
          display: none;
      }
      .main-nav a {
-         font-size: 22px;
+         font-size: 0.8rem;
+     }
+     .main-text {
+         font-size: 1.6rem;
      }
      .about-us-card {
          flex-direction: column;
@@ -49,7 +52,7 @@
          padding-bottom: 10%;
      }
      .grid {
-         width: 94%;
+         width: 92%;
      }
      form {
          grid-template-columns: 1fr;
