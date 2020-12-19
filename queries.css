@@ -19,8 +19,9 @@
          height: 220px;
      }
  }
+ /*zmienic break point na 480 zamiast 500*/
  
- @media only screen and (max-width: 500px) {
+ @media (max-width: 500px) {
      h1 {
          font-size: 30px;
      }
