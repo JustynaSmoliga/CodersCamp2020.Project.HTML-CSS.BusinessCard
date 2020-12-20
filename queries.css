@@ -14,6 +14,9 @@
      html {
          font-size: 24px;
      }
+     header div {
+         height: 24rem;
+     }
      .about-us .photo {
          width: 220px;
          height: 220px;
@@ -26,6 +29,9 @@
      }
      h1::after {
          margin-bottom: 40px;
+     }
+     header div {
+         height: 20rem;
      }
      .main-nav {
          justify-content: space-evenly;
