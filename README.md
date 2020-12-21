@@ -15,14 +15,14 @@ Celem projektu było wykonanie przykładowej wizytówki dla firmy budowlanej. Is
 * Google Fonts,
 * Fontawesome. 
 
-### Opis strony
+### Opis strony:
 Strona składa się z następujących sekcji: 
 * header, 
 * nav-bar, 
 * about us, 
 * offer, 
 * portfolio, 
-* contact oraz 
+* contact, 
 * footer. 
 
 Wizytówka jest wypozycjonowana przy użyciu Flexboxa. 
