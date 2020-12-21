@@ -8,10 +8,10 @@ Repozytorium zawiera pliki: index.html, style.css, queries.css, README.md oraz o
 Celem projektu było wykonanie przykładowej wizytówki dla firmy budowlanej. Istotnym załozneiem było, aby strona była responsywna i wyglądała dobrze na różnego rodzaju urządzeniach. 
 
 W projekcie wykorzystano:
--HTML,
--CSS,
--Google Fonts,
--Fontawesome. 
+*HTML,
+*CSS,
+*Google Fonts,
+*Fontawesome. 
 
 Strona składa się z następujących sekcji: 
 -header, 
