@@ -3,24 +3,27 @@
 
 ## Wizytówka dla firmy budowlanej
 
-Repozytorium zawiera pliki: index.html, style.css, queries.css, README.md oraz obrazy wykorzystane w projekcie. 
+### Repozytorium zawiera pliki: 
+index.html, style.css, queries.css, README.md oraz obrazy wykorzystane w projekcie. 
 
+### Cel projektu:
 Celem projektu było wykonanie przykładowej wizytówki dla firmy budowlanej. Istotnym załozneiem było, aby strona była responsywna i wyglądała dobrze na różnego rodzaju urządzeniach. 
 
-W projekcie wykorzystano:
-*HTML,
-*CSS,
-*Google Fonts,
-*Fontawesome. 
+### W projekcie wykorzystano:
+* HTML,
+* CSS,
+* Google Fonts,
+* Fontawesome. 
 
+### Opis strony
 Strona składa się z następujących sekcji: 
--header, 
--nav-bar, 
--about us, 
--offer, 
--portfolio, 
--contact oraz 
--footer. 
+* header, 
+* nav-bar, 
+* about us, 
+* offer, 
+* portfolio, 
+* contact oraz 
+* footer. 
 
 Wizytówka jest wypozycjonowana przy użyciu Flexboxa. 
 Header składa się z przyciemnionego zdjęcia oraz nałożonego na niego tekstu, wypozycjonowanego relacyjnie. 
