@@ -40,6 +40,6 @@ Kolejną sekcję tworzy galeria zdjęć projektów zrealizowanych przez firmę. 
 
 Następną sekcję tworzy formularz kontaktowy. W bocznej części formularza widoczne są ikony social media, które miałyby prowadzić do odpowiednich social media firmy buodlanej. Po najechaniu na ikonę zmienia się jej kolor. Do wykonania tła ikony wykorzystano gradient. Ostatnią część strony zajmuje stopka. 
 
-Responsywność strony zapewnia: Flexbox, Grid, media-queries oraz zastosowanie jednostek relacyjnych.  
+Responsywność strony zapewnia: Flexbox, Grid, media-queries oraz zastosowanie jednostek relatywnych.  
 
 
