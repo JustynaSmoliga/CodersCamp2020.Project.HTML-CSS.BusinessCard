@@ -83,3 +83,12 @@
          font-size: 0.7rem;
      }
  }
+ 
+ @media only screen and (max-width: 375px) {
+     .main-nav a:link,
+     .main-nav a:visited {
+         margin-left: 0.1%;
+         margin-right: 0.1%;
+         font-size: 14px;
+     }
+ }
