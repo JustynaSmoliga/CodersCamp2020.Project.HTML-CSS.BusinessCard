@@ -32,7 +32,7 @@ Poniżej znajduje się belka nawigacyjna strony wraz z przykładowym logo firmy.
 
 Wszystkie kolejne sekcje są poprzedzone nagłówkami h1. Pod każdym nagłówkiem h1 znajduje sie pomarańczowe podkreślenie, wykonane przy użyciu pseudoelementu after. Dodatkowo sekcje oddzielone są poprzez różny kolor tła: biały lub szary. Poniższe sekcje zostały wypozycjonowe przy użyciu Flexboxa. Wyjątkiem jest sekja "conctact", gdzie wykorzystano Grid. 
 
-Sekcja "abot us" składa się z przykładowego zdjęcia i paragrafu tekstu, który w skrócie opisuje działania firmy. 
+Sekcja "about us" składa się z przykładowego zdjęcia i paragrafu tekstu, który w skrócie opisuje działania firmy. 
 
 Kolejna sekcja dotyczy oferty firmy. Widoczne są wyszarzone kafelki odpowiadające różnym obszarom, którymi zajmuje się firma. Po najechaniu na dany kafelek pojawia się animacja oraz podświetlenie kafelka sugerujące, że po naciśnięciu zostalibyśmy przeniesieni do pełnej oferty firmy. 
 
