@@ -176,8 +176,6 @@
     }
     
     .offer .card:hover {
-        position: relative;
-        overflow: hidden;
         opacity: 1;
     }
     
@@ -243,7 +241,7 @@
         right: 0;
         width: 100%;
         height: 3px;
-        background: linear-gradient(to top, transparent, var(--main-color-dark-orange));
+        background: linear-gradient(to left, transparent, var(--main-color-dark-orange));
         animation: animate3 1s linear infinite;
         animation-delay: 1s;
     }
@@ -263,7 +261,7 @@
             transform: translateX(-100%);
         }
         100% {
-            tranform: translateX(100%);
+            transform: translateX(100%);
         }
     }
     
@@ -272,7 +270,7 @@
             transform: translateY(-100%);
         }
         100% {
-            tranform: translateY(100%);
+            transform: translateY(100%);
         }
     }
     
@@ -281,7 +279,7 @@
             transform: translateX(100%);
         }
         100% {
-            tranform: translateX(-100%);
+            transform: translateX(-100%);
         }
     }
     
@@ -290,7 +288,7 @@
             transform: translateY(100%);
         }
         100% {
-            tranform: translateY(-100%);
+            transform: translateY(-100%);
         }
     }
     /*-----------------PORTFOLIO-----------------*/
@@ -427,7 +425,7 @@
     .social-links div:nth-child(3),
     .social-links div:nth-child(5),
     .social-links div:nth-child(7) {
-        background-color: #fff;
+        background-color: transparent;
         height: 5%;
     }
     
